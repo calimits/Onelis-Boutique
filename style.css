@@ -1,0 +1,160 @@
+html{
+    background-color: rgb(242, 243, 245);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: rgb(255, 93, 193);
+    height: 80px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    z-index: 1000;
+}
+
+#title{
+    margin: 3px;
+    margin-top: 9px;
+    padding: 3px;
+    font-size: 19px;
+    color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header div{
+    width: 98%;
+    margin: 0px auto;
+}
+
+#menulink{
+    float: right;
+    margin-top: -5px;
+}
+
+#menulink img{
+    width: 40px;
+}
+
+#container{
+    margin: 0px auto;
+    width: 94%;
+}
+
+#marinn{
+    margin-top: 100px;
+}
+
+#links{
+    width: 100%;
+    margin-top: 9px;
+    border-top: solid 1px rgba(0,0,0,0.2);
+}
+
+#linksbox{
+    margin: 7px;
+    width: 100%;
+    overflow: auto;
+    overflow-y: hidden ;
+    white-space: nowrap;
+}
+
+#links a{
+    text-decoration: none;
+    color: white;
+    margin-left: 7px;
+    margin-right: 7px;
+    padding: 3px;
+    width: 200px;
+}
+
+#links a:hover{
+    background-color: rgb(231, 231, 231);
+}
+
+.box{
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 16px;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.box img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.box h2{
+    margin-left: 40px;
+    margin-bottom: 0px;
+    border-radius: 16px;
+    padding: 15px;
+}
+
+.box p{
+    margin: 8px;
+    font-weight: bold;
+    color: rgb(243, 81, 189);
+}
+
+.boxinside{
+    background: rgb(255, 255, 255);
+    width: 27%;
+    border-radius: 16px;
+    display: inline-block;
+    margin: 3%;
+    margin-top: 10px;
+    transition: all 0.3s;
+}
+
+.boxinside:hover{
+    transform: scale(1.02,1.02);
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+footer{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 3px;
+    width:100%;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2) 1px 1px 5px rgba(0,0,0,0.2) 1px 1px 5px rgba(0,0,0,0.2);
+    border-top: solid 1px rgba(0,0,0,0.4);
+    background-color:rgb(255, 93, 193);
+}
+
+footer div{
+    margin: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    margin-bottom: 0;
+    background-color:rgb(255, 93, 193);
+}
+
+footer p{
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 864px){
+    .boxinside{
+        width: 43%;
+    }
+}
+
+#logo{
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 0;
+}
+
+#logo img{
+    width: 100%;
+    border-radius: 7px;
+
+}
